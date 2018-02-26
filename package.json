@@ -1,0 +1,28 @@
+{
+  "name": "patterns",
+  "version": "0.0.1",
+  "description": "programming patterns",
+  "main": "index.js",
+  "author": "Armin Butkereit",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": false,
+    "unmockedModulePathPatterns": ["/node_modules/"],
+    "globals": {
+      "__DEV__": true
+    }
+  },
+  "keywords": [
+    "eventhandler",
+    "builder"
+  ],
+  "devDependencies": {
+    "jest": "^22.3.0"
+  }
+}
